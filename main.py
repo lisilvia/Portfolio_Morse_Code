@@ -42,7 +42,7 @@ window = Tk()
 window.title("Morse Code Translator")
 window.config(padx=10, pady=10)
 
-morse_code_image = PhotoImage(file="mose_picture.png")
+morse_code_image = PhotoImage(file="background_morse_code.png")
 canvas = Canvas(width=500, height=400, bg="#f7f5dd")
 canvas.create_image(250, 220, image=morse_code_image)
 canvas.grid(column=0, row=0, columnspan=3)
